@@ -50,6 +50,8 @@ namespace MyFirstMVCSeleniumTest.Specs
 
 		}
 
+		public int test { get; set; }
+
 		[TestFixture]
 		[Concern("Home")]
 		public class When_opening_the_homepage : SomeSpecsContext
